@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Projects | Jenofiya{% endblock %}
+{% block content %}
+
+<section class="page-header">
+  <div class="container">
+    <p class="eyebrow">Projects</p>
+    <h1>Things I've built.</h1>
+    <p class="body-lg header-sub">Full-stack apps with real backends and databases — not just static pages.</p>
+  </div>
+</section>
+
+<section class="section-paper">
+  <div class="container">
+    <div id="project-list" class="row g-4">
+      <p class="loading-text">Loading projects…</p>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/projects.js') }}"></script>
+{% endblock %}

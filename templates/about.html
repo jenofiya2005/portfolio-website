@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block title %}About | Jenofiya{% endblock %}
+{% block content %}
+
+<section class="page-header">
+  <div class="container">
+    <p class="eyebrow">About</p>
+    <h1>Here's my story so far.</h1>
+  </div>
+</section>
+
+<section class="section-paper">
+  <div class="container">
+    <div class="row gy-5">
+      <div class="col-lg-7">
+        <p class="body-lg">
+          I'm a final-year Computer Science and Engineering student at Jeppiaar Engineering College,
+          on the Python Full Stack development path. I like taking a project from a blank folder to a
+          live URL — backend logic, database design and deployment included, not just the UI.
+        </p>
+        <p class="body-lg">
+          Right now I split my time between a full-stack internship project at GUVI and remote web
+          development work at Thiranex, while building independent projects to sharpen the parts of
+          the stack I haven't touched at work yet.
+        </p>
+
+        <p class="eyebrow eyebrow-dark mt-5">Classifier Output</p>
+        <h3 class="section-title">Skills</h3>
+        <div class="skill-groups">
+          <div class="skill-group">
+            <p class="skill-cat">Languages &amp; Frameworks</p>
+            <div class="tag-row">
+              <span class="tag">Python</span><span class="tag">Flask</span>
+              <span class="tag">PHP</span><span class="tag">JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-cat">Data</p>
+            <div class="tag-row">
+              <span class="tag">MongoDB</span><span class="tag">MySQL</span>
+              <span class="tag">Redis</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-cat">Tools &amp; DevOps</p>
+            <div class="tag-row">
+              <span class="tag">Docker</span><span class="tag">Git</span>
+              <span class="tag">Render</span><span class="tag">Vercel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <h3 class="section-title">Timeline</h3>
+        <ul class="timeline">
+          <li>
+            <span class="timeline-date">2026</span>
+            <p class="timeline-title">Web Development Intern</p>
+            <p class="timeline-desc">Thiranex &mdash; Remote, project-based full-stack work.</p>
+          </li>
+          <li>
+            <span class="timeline-date">2026</span>
+            <p class="timeline-title">Full Stack Internship</p>
+            <p class="timeline-desc">GUVI &mdash; Multiple deployed project deliverables.</p>
+          </li>
+          <li>
+            <span class="timeline-date">2025</span>
+            <p class="timeline-title">Face Recognition Intern</p>
+            <p class="timeline-desc">Built a PCA + ANN based face recognition system.</p>
+          </li>
+          <li>
+            <span class="timeline-date">2022&ndash;26</span>
+            <p class="timeline-title">B.E. Computer Science &amp; Engineering</p>
+            <p class="timeline-desc">Jeppiaar Engineering College, Final Year.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}
