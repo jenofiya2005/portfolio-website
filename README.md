@@ -1,24 +1,3 @@
-Personal Portfolio Website
-
-Developed a responsive personal portfolio website to showcase my projects, technical skills, education, and professional profile. The website provides a clean and user-friendly interface that allows recruiters and visitors to explore my work and contact me easily.
-
-Key Features:
-
-Frontend: HTML5, CSS3, JavaScript
-
-Responsive and mobile-friendly design
-
-About Me, Education, Skills, and Projects sections
-
-Project showcase with project details
-
-Contact section for professional communication
-
-Clean and modern user interface
-
-Deployed as a live personal portfolio website
-
-
-Expected Outcome:
-
-Created a professional online presence to showcase my technical abilities, projects, and academic background while gaining practical experience in responsive web design and frontend development.
+ Personal Portfolio Website A full-stack personal portfolio built with Flask and MongoDB, showcasing my projects, skills, and experience.
+ Live Demo: https://portfolio-website-m1wr.onrender.com
+ Tech Stack - Backend: Flask (Python) - Database: MongoDB Atlas - Frontend: HTML5, CSS3, JavaScript, Bootstrap - Deployment: Render Features - Dynamic project listing pulled from MongoDB - Contact form with backend storage - Responsive, recruiter-friendly design  Run Locally ``` pip install -r requirements.txt python app.py ```
